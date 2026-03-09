@@ -8,6 +8,7 @@ module.exports = {
       '@semantic-release/npm',
       {
         pkgRoot: './dist',
+        publish: false,
       },
     ],
     [
