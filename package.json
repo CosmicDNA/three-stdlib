@@ -16,8 +16,8 @@
     "Cody Bennett (https://github.com/codyjasonbennett)",
     "Josh Ellis (https://github.com/joshuaellis)"
   ],
-  "homepage": "https://github.com/pmndrs/three-stdlib",
-  "repository": "https://github.com/pmndrs/three-stdlib",
+  "homepage": "https://github.com/CosmicDNA/three-stdlib",
+  "repository": "https://github.com/CosmicDNA/three-stdlib",
   "license": "MIT",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.cjs",
