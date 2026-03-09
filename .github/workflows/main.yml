@@ -34,7 +34,7 @@ jobs:
   release:
     needs: test
     runs-on: ubuntu-latest
-    if: ${{ github.repository == 'pmndrs/three-stdlib' && contains('refs/heads/main,refs/heads/beta,refs/heads/alpha',github.ref) && github.event_name == 'push' }}
+    if: ${{ github.repository == 'CosmicDNA/three-stdlib' && contains('refs/heads/main,refs/heads/beta,refs/heads/alpha',github.ref) && github.event_name == 'push' }}
     steps:
       - name: Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.6.0
