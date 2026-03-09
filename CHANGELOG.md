@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/CosmicDNA/three-stdlib/compare/v1.0.2...v1.0.3) (2026-03-09)
+
+
+### Bug Fixes
+
+* :construction_worker: Should fix release GH action, attempt 8. ([d876018](https://github.com/CosmicDNA/three-stdlib/commit/d876018e5ed56d4dcd6303afa13bfc5c69283020))
+* :construction_worker: Should fix release GH action, attempt 9. ([1607716](https://github.com/CosmicDNA/three-stdlib/commit/1607716ed35b85dbe95835369e48b6d1225ce3f2))
+
 ## [1.0.2](https://github.com/CosmicDNA/three-stdlib/compare/v1.0.1...v1.0.2) (2026-03-09)
 
 
