@@ -5,6 +5,12 @@ module.exports = {
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     [
+      '@semantic-release/exec',
+      {
+        publishCmd: 'tar -czf three-stdlib-dist.tar.gz dist/',
+      },
+    ],
+    [
       '@semantic-release/git',
       {
         assets: ['package.json', 'CHANGELOG.md'],
@@ -14,7 +20,7 @@ module.exports = {
     [
       '@semantic-release/github',
       {
-        assets: ['dist/**/*'],
+        assets: ['three-stdlib-dist.tar.gz'],
         successComment: false,
         failComment: false,
         labels: false,
